@@ -1,0 +1,13 @@
+Given a number, use a while loop to count how many digits the number has. E.g. input 12345 → output should be 5.
+
+Use a while loop to reverse a number. E.g. input 1234 → output 4321.
+
+Ask the user for two numbers a and b (assume a < b). Use a while loop to print all even numbers between a and b inclusive.
+
+Ask the user to enter their password. Keep asking (using while loop) until the user enters the correct password.
+
+Use a while loop to compute the factorial of a number n. (Factorial: 1 * 2 * 3 * ... * n)
+
+Use a while loop to print the Fibonacci sequence up to n terms. E.g. if n=5, output: 0 1 1 2 3
+
+Challenge: Ask the user to enter a positive number. If they enter a negative number or zero, ask again (loop). Once they enter a positive number, compute and print its square
