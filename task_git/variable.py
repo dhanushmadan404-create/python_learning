@@ -1,5 +1,5 @@
 def bn(a,b,c):
-    total=max(a,b,c)
-    print(total)
+    big=max(a,b,c)
+    print(big)
 bn(6,3,9)
 a="hello world"
