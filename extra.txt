@@ -1,0 +1,8 @@
+4. String Functions
+Function	Purpose	Example
+len()	Length of string	len("Python") → 6
+ord()	ASCII value	ord("A") → 65
+chr()	Character from ASCII	chr(65) → "A"
+sorted()	Sort letters	sorted("bca") → ['a','b','c']
+str.lower()	Convert to lowercase	"HELLO".lower() → "hello"
+str.upper()	Convert to uppercase	"hello".upper() → "HELLO"
