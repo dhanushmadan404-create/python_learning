@@ -23,7 +23,7 @@ class theater:
         for el in self.movies:
             if name==el["title"]:
                 if seats<=el["total_ticket"]:
-                    el["total_ticket"]-=seats
+                    el["total_ticket"]+=seats
                 else:
                     print("false number")
             else:
