@@ -49,8 +49,8 @@ import math
 # string("This is programming")
             
 
-for i in range(0,3):
-    gap=" "*(3)
-    gap+=str(i)
-    gap=str(i)+gap
-print(gap)
+# for i in range(0,3):
+#     gap=" "*(3)
+#     gap+=str(i)
+#     gap=str(i)+gap
+# print(gap)
