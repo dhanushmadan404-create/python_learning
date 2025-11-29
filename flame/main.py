@@ -1,40 +1,20 @@
-a=list(input("Enter your name "))
-b=list(input('Enter your lover name '))   
+a="aswin"
+b="samanda"  
+a=list(a)
+b=list(b) 
 f=["f","l","a","m","e","s"]
 for i in a:
+    value=i
+    count=0
     for j in b:
         if i==j:
-            a.remove(i)
+            count=1
             b.remove(j)
-ab1=len(a)+len(b)
+    if count==1:
+        a.remove(i)
 
-for i in range(1,ab1):
-    
-
-# print(ab1) 
-# b1=""
-# ab1=[]
-
-# for i in a:
-#     count=0
-#     for y in b:
-#         if i == y:
-#             count+=1
-#     if count==0:
-#         a1+=i
-    
-# for i in b:
-#     count=0
-#     for y in a:
-#         if i == y:
-#             count+=1
-#     if count==0:
-#         b1+=i
-
-# count=len(a1)+len(b1)
+count=len(a)+len(b)
 
 
-# print(a1,b1,count) 
-   
-# print(ab1)
+
 
