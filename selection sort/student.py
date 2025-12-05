@@ -13,7 +13,7 @@ students = [
     # {"name": "f", "mark": {"Tamil": 90, "English": 90, "Maths": 85, "Science": 95, "Social": 90}}
     # 3) Two students — overall tie and sub-average tie → full tie
 
-]
+
 
 for el in range(len(students)):
     for avg in range(len(students[el2][1])):
