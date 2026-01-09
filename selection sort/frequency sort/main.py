@@ -34,11 +34,10 @@ for i in range(len(arr)):
             temp2.append(arr[i])
              #append the values
         same.append(temp)
-print(" v")    
 print(new)
 print(same)
 #sort the new and same list
-print(" v")
+
 index=0
 while index<(len(new)-1):
     if new[index]>new[index+1]:
@@ -64,6 +63,8 @@ for i in same:
 
 print(new)
 
+# loop=7
+# condition=7
 
 
     

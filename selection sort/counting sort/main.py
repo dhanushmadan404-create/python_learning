@@ -6,8 +6,9 @@ count=[0]*(big+1)
 for i in arr:
     count[i]+=1
 print(count)
+arr.clear()
 for i in range(len(count)):
-    for y in range(1,count[i]):
+    for y in range(count[i]):
         new.append(i)
 
 print(new)
